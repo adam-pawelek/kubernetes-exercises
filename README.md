@@ -8,6 +8,7 @@ kubectl apply -f ./my-manifest.yaml
 ## Pods
 ```
 kubectl get pods
+kubectl get pods --all-namespaces             # List all pods in all namespaces
 ```
 
 ## Replica Set 
