@@ -1,6 +1,6 @@
 # kubernetes cheat sheet
 
-Creating objects
+## Creating objects
 ```
 kubectl apply -f ./my-manifest.yaml  
 ```
