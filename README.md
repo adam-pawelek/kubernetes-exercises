@@ -28,6 +28,14 @@ Service
 kubectl get svc
 ```
 
+Minikube
+
+Check url service in minikube 
+
+```
+minikube service db-adminer-service --url
+```
+
 
 
 
