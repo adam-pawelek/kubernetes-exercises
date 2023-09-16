@@ -5,30 +5,30 @@ Creating objects
 kubectl apply -f ./my-manifest.yaml  
 ```
 
-Pods
+## Pods
 ```
 kubectl get pods
 ```
 
-Replica Set 
+## Replica Set 
 
 ```
 kubectl get rs
 ```
 
-Deployment
+## Deployment
 
 ```
 kubectl get deployments
 ```
 
-Service 
+## Service 
 
 ```
 kubectl get svc
 ```
 
-Minikube
+## Minikube
 
 Check url service in minikube 
 
