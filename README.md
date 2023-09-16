@@ -9,6 +9,8 @@ kubectl apply -f ./my-manifest.yaml
 ```
 kubectl get pods
 kubectl get pods --all-namespaces             # List all pods in all namespaces
+kubectl get pod my-pod -o yaml                # Get a pod's YAML
+kubectl describe pods my-pod                  # Describe pod
 ```
 
 ## Replica Set 
@@ -31,10 +33,11 @@ kubectl get svc
 
 ## Minikube
 
-Check url service in minikube 
+
 
 ```
-minikube service db-adminer-service --url
+minikube start                                   # Start minikube cluster 
+minikube service db-adminer-service --url        # Check url service in minikube 
 ```
 
 
